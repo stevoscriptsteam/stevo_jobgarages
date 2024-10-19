@@ -1,0 +1,54 @@
+{
+    "notify" : {
+        "notAuthorized" : "Your grade is not sufficent for this!",
+        "cancelledSpawn" : "Vehicle Spawn Cancelled",
+        "vehicleSpawned" : "Successfully Spawned %s",
+        "setPlate" : "Plate Set: %s",
+        "vehicleRepaired" : "Vehicle Repaired",
+        "vehicleRepairCancelled" : "Vehicle Repair Cancelled",
+        "storeVehicle" : "Vehicle stored"
+    },
+
+    "textui" : {
+        "opengarage" : "**[E]** Open Garage"
+    },
+
+
+    "progress" : {
+        "repairingVehicle" : "Repairing Vehicle..."
+    },
+
+    "target" : {
+        "open" : "Manage %s"
+    },
+
+    "menu" : {
+        "mechanicTitle" : "Fleet Services",
+        "changeExtras" : "Change Extras",
+        "changeLivery" : "Change Livery",
+        "changeColor" : "Change Colour",
+        "repairVehicle" : "Repair Vehicle",
+        "changePlate" : "Change Plate",
+        "livery" : "Livery: %s",
+        "extra" : "Extra: %s",
+        "changePrimaryColor" : "Change Primary Colour",
+        "changeSecondaryColor" : "Change Secondary Colour",
+        "inVehicle" : "Garage",
+        "storeVehicle" : "Store Vehicle"
+    },
+
+    "alert" : {
+        "confirmSpawnTitle" : "Confirm you want to spawn **%s**?",
+        "cancelSpawn" : "Cancel Spawn",
+        "confirmSpawn" : "Confirm Spawn"
+    },
+
+    "input" : {
+        "color" : "Fleet Services (PAINT)",
+        "colorLabel" : "Colour input",
+        "plate" : "Plate Change",
+        "plateDescription" : "Must be between 1-8 characters"
+    }
+
+    
+}

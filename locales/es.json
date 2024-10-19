@@ -1,0 +1,51 @@
+{
+    "notify" : {
+        "notAuthorized" : "¡Tu rango no es suficiente para esto!",
+        "cancelledSpawn" : "Aparición del vehículo cancelada",
+        "vehicleSpawned" : "Vehículo generado con éxito %s",
+        "setPlate" : "Matrícula establecida: %s",
+        "vehicleRepaired" : "Vehículo reparado",
+        "vehicleRepairCancelled" : "Reparación del vehículo cancelada",
+        "storeVehicle" : "Vehículo almacenado"
+    },
+
+    "textui" : {
+        "opengarage" : "**[E]** Abrir Garaje"
+    },
+
+    "progress" : {
+        "repairingVehicle" : "Reparando vehículo..."
+    },
+
+    "target" : {
+        "open" : "Gestionar %s"
+    },
+
+    "menu" : {
+        "mechanicTitle" : "Servicios de Flota",
+        "changeExtras" : "Cambiar extras",
+        "changeLivery" : "Cambiar librea",
+        "changeColor" : "Cambiar color",
+        "repairVehicle" : "Reparar vehículo",
+        "changePlate" : "Cambiar matrícula",
+        "livery" : "Librea: %s",
+        "extra" : "Extra: %s",
+        "changePrimaryColor" : "Cambiar color primario",
+        "changeSecondaryColor" : "Cambiar color secundario",
+        "inVehicle" : "Garaje",
+        "storeVehicle" : "Almacenar vehículo"
+    },
+
+    "alert" : {
+        "confirmSpawnTitle" : "¿Confirmas que quieres generar **%s**?",
+        "cancelSpawn" : "Cancelar aparición",
+        "confirmSpawn" : "Confirmar aparición"
+    },
+
+    "input" : {
+        "color" : "Servicios de Flota (PINTURA)",
+        "colorLabel" : "Entrada de color",
+        "plate" : "Cambio de matrícula",
+        "plateDescription" : "Debe tener entre 1-8 caracteres"
+    }
+}

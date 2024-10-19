@@ -1,0 +1,51 @@
+{
+    "notify" : {
+        "notAuthorized" : "Je rang is niet voldoende voor dit!",
+        "cancelledSpawn" : "Voertuigspawning geannuleerd",
+        "vehicleSpawned" : "Succesvol Voertuig Gespawned %s",
+        "setPlate" : "Kenteken ingesteld: %s",
+        "vehicleRepaired" : "Voertuig gerepareerd",
+        "vehicleRepairCancelled" : "Voertuigreparatie geannuleerd",
+        "storeVehicle" : "Voertuig opgeslagen"
+    },
+
+    "textui" : {
+        "opengarage" : "**[E]** Garage openen"
+    },
+
+    "progress" : {
+        "repairingVehicle" : "Voertuig repareren..."
+    },
+
+    "target" : {
+        "open" : "Beheer %s"
+    },
+
+    "menu" : {
+        "mechanicTitle" : "Vlootdiensten",
+        "changeExtras" : "Wijzig Extras",
+        "changeLivery" : "Wijzig Bekleding",
+        "changeColor" : "Wijzig Kleur",
+        "repairVehicle" : "Repareer Voertuig",
+        "changePlate" : "Wijzig Kenteken",
+        "livery" : "Bekleding: %s",
+        "extra" : "Extra: %s",
+        "changePrimaryColor" : "Wijzig Primaire Kleur",
+        "changeSecondaryColor" : "Wijzig Secundaire Kleur",
+        "inVehicle" : "Garage",
+        "storeVehicle" : "Voertuig opslaan"
+    },
+
+    "alert" : {
+        "confirmSpawnTitle" : "Bevestig dat je **%s** wilt spawnen?",
+        "cancelSpawn" : "Spawn annuleren",
+        "confirmSpawn" : "Bevestig Spawn"
+    },
+
+    "input" : {
+        "color" : "Vlootdiensten (VERF)",
+        "colorLabel" : "Kleurinvoer",
+        "plate" : "Kenteken Wijzigen",
+        "plateDescription" : "Moet tussen 1-8 tekens zijn"
+    }
+}
