@@ -16,11 +16,6 @@ client_scripts {
     'resource/client.lua',
 }
 
-server_scripts {
-    'resource/server.lua',
-    '@oxmysql/lib/MySQL.lua'
-}
-
 files {
     'locales/*.json',
 }
