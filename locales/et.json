@@ -1,0 +1,54 @@
+{
+    "notify" : {
+        "notAuthorized" : "Te ei pääse sellele ligi!",
+        "cancelledSpawn" : "Sõiduki tekke on katkestatud!",
+        "vehicleSpawned" : "Sõiduki tekkimine %s",
+        "setPlate" : "Numbrimärk määratud: %s",
+        "vehicleRepaired" : "Sõiduk parandatud!",
+        "vehicleRepairCancelled" : "Sõiduki parandamine katkestatud!",
+        "storeVehicle" : "Sõiduk edukalt pandud garaaži!"
+    },
+
+    "textui" : {
+        "opengarage" : "**[E]** Ava Garaaž"
+    },
+
+
+    "progress" : {
+        "repairingVehicle" : "Sõiduki parandamine"
+    },
+
+    "target" : {
+        "open" : "Tegutse %s"
+    },
+
+    "menu" : {
+        "mechanicTitle" : "Autopargi teenused",
+        "changeExtras" : "Muuda lisasid",
+        "changeLivery" : "Muuda kleebiseid",
+        "changeColor" : "Muuda värvi",
+        "repairVehicle" : "Paranda sõidukit",
+        "changePlate" : "Muuda numbrimärki",
+        "livery" : "Kleebis: %s",
+        "extra" : "Lisa: %s",
+        "changePrimaryColor" : "Muuda peamist värvi",
+        "changeSecondaryColor" : "Muuda teist värvi",
+        "inVehicle" : "Garaaž",
+        "storeVehicle" : "Hoiusta sõiduk"
+    },
+
+    "alert" : {
+        "confirmSpawnTitle" : "Kinnitage, et soovite **%s**?",
+        "cancelSpawn" : "Katkesta tekke",
+        "confirmSpawn" : "Kinnita tekke"
+    },
+
+    "input" : {
+        "color" : "Autopargi teenused (VÄRV)",
+        "colorLabel" : "Värv",
+        "plate" : "Muuda numbrimärki",
+        "plateDescription" : "Peab olema 1–8 tähemärki"
+    }
+
+    
+}
