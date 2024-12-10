@@ -1,0 +1,51 @@
+{
+    "notify" : {
+        "notAuthorized" : "Votre grade n'est pas suffisant pour cela !",
+        "cancelledSpawn" : "Apparition du véhicule annulée",
+        "vehicleSpawned" : "Véhicule %s apparu avec succès",
+        "setPlate" : "Plaque définie : %s",
+        "vehicleRepaired" : "Véhicule réparé",
+        "vehicleRepairCancelled" : "Réparation du véhicule annulée",
+        "storeVehicle" : "Véhicule rangé"
+    },
+
+    "textui" : {
+        "opengarage" : "**[E]** Ouvrir le garage"
+    },
+
+    "progress" : {
+        "repairingVehicle" : "Réparation du véhicule en cours..."
+    },
+
+    "target" : {
+        "open" : "Gérer %s"
+    },
+
+    "menu" : {
+        "mechanicTitle" : "Services de flotte",
+        "changeExtras" : "Modifier les extras",
+        "changeLivery" : "Modifier la livrée",
+        "changeColor" : "Modifier la couleur",
+        "repairVehicle" : "Réparer le véhicule",
+        "changePlate" : "Modifier la plaque",
+        "livery" : "Livrée : %s",
+        "extra" : "Extra : %s",
+        "changePrimaryColor" : "Modifier la couleur principale",
+        "changeSecondaryColor" : "Modifier la couleur secondaire",
+        "inVehicle" : "Garage",
+        "storeVehicle" : "Ranger le véhicule"
+    },
+
+    "alert" : {
+        "confirmSpawnTitle" : "Confirmez-vous vouloir faire apparaître **%s** ?",
+        "cancelSpawn" : "Annuler l'apparition",
+        "confirmSpawn" : "Confirmer l'apparition"
+    },
+
+    "input" : {
+        "color" : "Services de flotte (PEINTURE)",
+        "colorLabel" : "Entrée de couleur",
+        "plate" : "Changement de plaque",
+        "plateDescription" : "Doit contenir entre 1 et 8 caractères"
+    }
+}

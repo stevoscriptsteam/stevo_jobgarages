@@ -6,7 +6,7 @@ Easy to configure, allowing you to completely customise where your garage menu i
 
 ﻿
 - :bank: ﻿﻿﻿ Supported frameworks: ESX, QBCore & Qbox
-- :speaking_head:  Locales: English, Español & Dutch
+- :speaking_head:  Locales: English, Español, French, Estonian & Dutch
 
 Follow our installation guide: [Click Here](https://docs.stevoscripts.com/free-scripts/stevo_jobgarages)
 ﻿
