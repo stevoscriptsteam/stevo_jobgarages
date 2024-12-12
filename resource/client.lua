@@ -1,4 +1,4 @@
-if not lib.checkDependency('stevo_lib', '1.7.1') then error('stevo_lib 1.7.1 required for stevo_portablemoneywash') end
+if not lib.checkDependency('stevo_lib', '1.7.2) then error('stevo_lib 1.7.2 required for stevo_jobgarages') end
 lib.locale()
 local config = require('config')
 local stevo_lib = exports['stevo_lib']:import()
@@ -105,7 +105,7 @@ local function changeColor(data)
 end
 
 local function changePlate()
-    local groupInfo = stevo_lib.GetPlayerGroupInfo()
+    local groupInfo = stevo_lib.GetPlayerGroupInfo(true)
 
     if groupInfo.grade < config.minimumPlateGrade then lib.showContext('stevo_jobgarages_mechanic') return stevo_lib.Notify(locale("notify.notAuthorized"), "error", 5000) end 
 
@@ -211,7 +211,7 @@ local function selectVehicle(data)
 end
 
 local function openCategory(data)
-    local groupInfo = stevo_lib.GetPlayerGroupInfo()
+    local groupInfo = stevo_lib.GetPlayerGroupInfo(true)
 
     if groupInfo.grade < data.gradeRequired then lib.showContext(data.garageMenuId) return stevo_lib.Notify(locale("notify.notAuthorized"), "error", 5000) end 
 
@@ -219,7 +219,7 @@ local function openCategory(data)
 end
 
 local function onEnter(self)
-    local groupInfo = stevo_lib.GetPlayerGroupInfo()
+    local groupInfo = stevo_lib.GetPlayerGroupInfo(true)
     self.playerGroup = groupInfo.name
 
 end
