@@ -173,7 +173,9 @@ local function selectVehicle(data)
     SetVehicleInteriorlight(vehicle, true)
     FreezeEntityPosition(vehicle, true)
     SetEntityAsMissionEntity(vehicle, true, true)
-    applyMods(vehicle, data.mods)
+	if data.mods then 
+    	applyMods(vehicle, data.mods)
+			end
     SetVehicleDirtLevel(vehicle, 0)
 
     local alert = lib.alertDialog({
