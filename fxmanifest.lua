@@ -5,7 +5,7 @@ lua54 'yes'
 
 author "Stevo Scripts | steve"
 description 'Advanced Job Garages with rank locks and more!'
-version '1.0.0'
+version '1.0.1'
 
 shared_script {
     '@ox_lib/init.lua',
