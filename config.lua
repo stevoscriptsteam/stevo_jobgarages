@@ -49,7 +49,7 @@ return {
                     gradeRequired = 5,
 
                     vehicles = {
-                        {model = 'police', label = 'Police Cruiser', icon = 'circle', iconColor = '#7a5f15'}
+                        {model = 'police', label = 'Police Cruiser', icon = 'circle', iconColor = '#7a5f15', mods = {livery = 1, extras = {{id = 1, disabled = false}, {id = 2, disabled = true}}}}
                     }
                 }
                 
@@ -93,7 +93,7 @@ return {
                 gradeRequired = 5,
 
                 vehicles = {
-                    {model = 'police', label = 'Police Cruiser', icon = 'circle', iconColor = '#7a5f15'}
+                    {model = 'police', label = 'Police Cruiser', icon = 'circle', iconColor = '#7a5f15', mods = {livery = 1, extras = {{id = 1, disabled = false}, {id = 2, disabled = true}}}}
                 }
             }
             
@@ -108,11 +108,17 @@ return {
     giveVehicleKeys = function(entity, plate)
         -- Wasabi Carlock
         -- exports.wasabi_carlock:GiveKey(plate)
+        
+        -- qb/qbx_vehiclekeys
+        -- TriggerEvent("vehiclekeys:client:SetOwner", plate)
     end,
 
     removeVehicleKeys = function(entity, plate)
         -- Wasabi Carlock
         -- exports.wasabi_carlock:RemoveKey(plate)
+        
+        -- qb/qbx_vehiclekeys
+        -- TriggerEvent("vehiclekeys:client:RemoveOwner", plate)
     end,
     
 }
