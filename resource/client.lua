@@ -1,4 +1,4 @@
-if not lib.checkDependency('stevo_lib', '1.7.2) then error('stevo_lib 1.7.2 required for stevo_jobgarages') end
+if not lib.checkDependency('stevo_lib', '1.7.2') then error('stevo_lib 1.7.2 required for stevo_jobgarages') end
 lib.locale()
 local config = require('config')
 local stevo_lib = exports['stevo_lib']:import()
