@@ -6,7 +6,8 @@
         "setPlate" : "Matrícula establecida: %s",
         "vehicleRepaired" : "Vehículo reparado",
         "vehicleRepairCancelled" : "Reparación del vehículo cancelada",
-        "storeVehicle" : "Vehículo almacenado"
+        "storeVehicle" : "Vehículo almacenado",
+        "invalidModel": "Este modelo de vehículo no es válido."
     },
 
     "textui" : {

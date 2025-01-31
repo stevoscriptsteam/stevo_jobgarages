@@ -161,6 +161,11 @@ end
 
 local function selectVehicle(data)
     menuOpen = true
+    local modelValid = IsModelValid(data.model)
+    if modelValid ~= true then 
+        stevo_lib.Notify(locale("notify.invalidModel"), 'error', 3000)
+        return 
+    end 
     local model = lib.requestModel(data.model)
     local coords = spawnCoords
     local vehicle = CreateVehicle(model, coords.x, coords.y, coords.z, coords.w, false, true)
@@ -415,5 +420,3 @@ AddEventHandler('onResourceStart', function(resource)
 
     initGarages()
 end)
-
-

@@ -6,7 +6,8 @@
         "setPlate" : "Numbrimärk määratud: %s",
         "vehicleRepaired" : "Sõiduk parandatud!",
         "vehicleRepairCancelled" : "Sõiduki parandamine katkestatud!",
-        "storeVehicle" : "Sõiduk edukalt pandud garaaži!"
+        "storeVehicle" : "Sõiduk edukalt pandud garaaži!",
+        "invalidModel": "See sõidukimudel on kehtetu."
     },
 
     "textui" : {
