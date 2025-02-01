@@ -6,7 +6,8 @@
         "setPlate" : "Kenteken ingesteld: %s",
         "vehicleRepaired" : "Voertuig gerepareerd",
         "vehicleRepairCancelled" : "Voertuigreparatie geannuleerd",
-        "storeVehicle" : "Voertuig opgeslagen"
+        "storeVehicle" : "Voertuig opgeslagen",
+        "invalidModel": "Dit voertuigmodel is ongeldig."
     },
 
     "textui" : {

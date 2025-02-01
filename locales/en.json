@@ -1,12 +1,13 @@
 {
     "notify" : {
-        "notAuthorized" : "Your grade is not sufficent for this!",
+        "notAuthorized" : "Your grade is not sufficient for this!",
         "cancelledSpawn" : "Vehicle Spawn Cancelled",
         "vehicleSpawned" : "Successfully Spawned %s",
         "setPlate" : "Plate Set: %s",
         "vehicleRepaired" : "Vehicle Repaired",
         "vehicleRepairCancelled" : "Vehicle Repair Cancelled",
-        "storeVehicle" : "Vehicle stored"
+        "storeVehicle" : "Vehicle stored",
+        "invalidModel": "This Vehicle Model is invalid."
     },
 
     "textui" : {
